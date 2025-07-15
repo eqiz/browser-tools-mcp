@@ -1,0 +1,16 @@
+{
+  "navigation_abilities": false,
+  "safety_settings": {
+    "require_confirmation": true,
+    "allowed_domains": [],
+    "blocked_domains": ["banking.com", "paypal.com", "*.admin.*"],
+    "max_navigation_actions_per_session": 50,
+    "enable_form_filling": false,
+    "enable_clicking": false,
+    "enable_url_navigation": false
+  },
+  "logging": {
+    "log_navigation_actions": true,
+    "log_level": "info"
+  }
+} 
